@@ -19,11 +19,16 @@ pip install paddlepaddle paddleocr
 pip install easyocr
 
 安装步骤
+
 1.克隆项目仓库：
+
 git clone https://github.com/yourusername/traffic-monitoring-system.git
+
 cd traffic-monitoring-system
+
 2.安装Python依赖
 pip install -r requirements.txt
+
 3.下载预训练模型：
 # YOLOv5模型
 wget https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt -P models/
