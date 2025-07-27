@@ -1,0 +1,33 @@
+# ===== 核心依赖 =====
+torch==2.1.0          # PyTorch深度学习框架
+torchvision==0.16.0   # 计算机视觉支持
+ultralytics==8.0.196   # YOLOv8目标检测
+opencv-python==4.6.0 # 图像处理核心库
+numpy==1.26.4          # 科学计算基础库
+pandas==2.2.1          # 数据处理和分析
+matplotlib==3.8.3      # 数据可视化
+
+# ===== 车牌识别模块 =====
+paddlepaddle==2.6.1    # 百度PaddlePaddle引擎
+paddleocr==2.7.0.3     # 车牌OCR识别库
+easyocr==1.7.1         # 备选OCR引擎
+
+# ===== 网络与API接口 =====
+requests==2.31.0       # HTTP请求库
+flask==3.0.2           # Web服务框架
+flask-socketio==5.3.6  # 实时通信支持
+
+
+# ===== 硬件加速支持 =====
+onnxruntime==1.17.1    # ONNX模型推理加速
+pycoral==2.0.0         # Google Coral Edge TPU支持
+tflite-runtime==2.14.0 # TensorFlow Lite推理引擎
+
+# ===== 视频处理 =====
+imutils==0.5.4         # OpenCV辅助工具
+pyyaml==6.0.1          # 配置文件解析
+protobuf==4.25.3       # 数据序列化
+
+# ===== 全志H618平台特供 =====
+opencv-contrib-python-headless==4.6.0# 无界面OpenCV
+pyarmor==8.4.2         # 代码保护（生产环境使用）
